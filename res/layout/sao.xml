@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:text="图书查询系统"
+    android:textColor="#000000"
+    android:textSize="20sp" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="条形码："
+        android:textSize="17dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/bookcode"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/saomiao"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="扫描" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/serch"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:text="查询" />
+
+    <Button  android:id="@+id/reset"
+    android:layout_width="100dp" 
+    android:layout_height="wrap_content" 
+    android:text="清空"/>
+</LinearLayout>
+<LinearLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			     android:layout_marginLeft="10dp"
+			    android:orientation="horizontal"
+			    android:layout_marginTop="20dp">
+			       <TextView
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:text="条形码："
+			           android:textColor="#000000"
+			           android:textSize="17dp"
+			           android:layout_marginLeft="5dp" >
+			        </TextView>
+			        <TextView
+			           android:id="@+id/code"
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:text=""
+			           android:textColor="#000000"
+			           android:textSize="17dp" 
+			           android:layout_marginLeft="17dp">
+			        </TextView>	
+			</LinearLayout>
+
+			<LinearLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			     android:layout_marginLeft="10dp"
+			    android:orientation="horizontal"
+			    android:layout_marginTop="10dp">
+			       <TextView
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:text="书名："
+			           android:textColor="#000000"
+			           android:textSize="17dp"
+			           android:layout_marginLeft="5dp" >
+			        </TextView>
+			        <TextView
+			           android:id="@+id/bookname"
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:text=""
+			           android:textColor="#000000"
+			           android:textSize="17dp" 
+			           android:layout_marginLeft="34dp">
+			        </TextView>	
+			</LinearLayout>
+<LinearLayout 
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			     android:layout_marginLeft="10dp"
+			    android:orientation="horizontal"
+			    android:layout_marginTop="10dp">
+			       <TextView
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:text="价格："
+			           android:textColor="#000000"
+			           android:textSize="17dp"
+			           android:layout_marginLeft="5dp" >
+			        </TextView>
+			        <TextView
+			           android:id="@+id/bookprice"
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:text=""
+			           android:textColor="#000000"
+			           android:textSize="17dp" 
+			           android:layout_marginLeft="34dp">
+			        </TextView>	
+			</LinearLayout>
+			
+</LinearLayout>

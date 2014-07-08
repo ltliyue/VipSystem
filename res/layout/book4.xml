@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+     >
+     
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="66px"
+        android:background="@drawable/toolbar_up" >
+
+        <Button
+            android:id="@+id/btn_caiview_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/taber_bark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="名书汇总"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+
+    </RelativeLayout>
+   
+      <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+      <Button
+          android:id="@+id/btn_lucai_shuiguohuihui"
+          android:layout_width="fill_parent"
+          android:layout_height="225dp"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/qbc" />
+
+      <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="千万次摇摆，才能长大成人"
+            android:textSize="18sp"
+            android:gravity="center_vertical|center_horizontal"
+             android:layout_marginTop="10dp"
+               android:textColor="#000000"
+            />
+    
+     <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/middle"
+           />
+     
+    <Button
+        android:id="@+id/btn_lucai_xianchaohuamomo"
+        android:layout_width="fill_parent"
+        android:layout_height="225dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/hea" />
+    
+    <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Head first"
+            android:textSize="18sp"
+            android:gravity="center_vertical|center_horizontal"
+             android:layout_marginTop="10dp"
+             android:textColor="#000000"
+            />
+    
+    
+     <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/middle"/>
+ 
+   </LinearLayout>
+    
+    
+    
+    
+    
+</LinearLayout>
